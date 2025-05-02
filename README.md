@@ -93,7 +93,7 @@ const cloudManager = new CloudManager({
   privateAPIKey: 'your-private-api-key',
 })
 
-cloudManager.setIndex('your-index-id')
+cloudManager.setDataSource('your-datasource-id')
 
 const transaction = await cloudManager.newTransaction()
 
